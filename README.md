@@ -4,13 +4,13 @@ Este projeto é um **laboratório simples de infraestrutura** criado para pratic
 
 O ambiente foi construído utilizando **máquinas virtuais** para simular dois servidores que se comunicam entre si dentro de uma rede privada. O objetivo é entender na prática como servidores podem ser configurados, conectados em rede e gerenciados remotamente.
 
-Este projeto faz parte do meu processo de aprendizado em infraestrutura, DevOps e administração de sistemas, áreas pelas quais tenho grande interesse.
+Este projeto faz parte do meu processo de começo aprendizado em infraestrutura, DevOps e administração de sistemas, áreas pelas quais tenho grande interesse.
 
 ---
 
 # Objetivo do Projeto
 
-O principal objetivo deste laboratório é praticar habilidades importantes e aprender para quem está começando na área de infraestrutura ou DevOps, como:
+O principal objetivo deste projeto é praticar habilidades importantes e aprender para quem está começando na área de infraestrutura ou DevOps, como:
 
 - criação e configuração de servidores Linux
 - uso de máquinas virtuais
