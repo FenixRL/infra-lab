@@ -1,4 +1,4 @@
-# Laboratorio Servidores
+# Laboratório Servidores
 
 Este projeto é um **laboratório simples de infraestrutura** criado para praticar conceitos básicos de **Linux, redes, automação e containers**, comuns em ambientes DevOps.
 
