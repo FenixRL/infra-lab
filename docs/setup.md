@@ -7,32 +7,35 @@ ssh rafa@192.168.56.101
 O acesso ao servidor web-server foi realizado com sucesso.
 
 
-##########################################
+#
 
 
 Docker foi instalado no servidor web-server para execução de containers.
 
 Comandos utilizados:
 
+```
 sudo apt update
 sudo apt install docker.io -y
 sudo docker run hello-world
+```
 
-
-##########################################
+#
 
 
 Ansible foi instalado no servidor infra-server.
 
 Comando: 
 
+```
 sudo apt install ansible -y
 ansible --version
+```
 
 Função: automação de configuração e gerenciamento de servidores.
 
 
-##########################################
+#
 
 
 Foi criada chave SSH para permitir autenticação sem senha entre os servidores.
