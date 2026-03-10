@@ -92,3 +92,6 @@ infra-lab
 │ └── network-diagram.png
 │
 └── screenshots
+
+![Diagrama do Projeto](diagrams/network-diagram.png)
+
