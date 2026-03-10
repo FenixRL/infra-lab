@@ -42,7 +42,9 @@ Foi criada chave SSH para permitir autenticação sem senha entre os servidores.
 
 Com os seguintes Codigos:
 
-ssh-keygen --> para gerar a chave
-ssh-copy-id rafa@192.168.56.101 --> copiar para o web-server
+
+```ssh-keygen``` --> para gerar a chave
+```ssh-copy-id rafa@192.168.56.101``` --> copiar para o web-server
+
 
 Isso permite que o Ansible se conecte automaticamente ao web-server.
