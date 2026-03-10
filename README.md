@@ -79,6 +79,7 @@ Protocolo utilizado para acesso remoto seguro entre máquinas.
 
 # Estrutura do Projeto
 
+```
 infra-lab
 │
 ├── README.md
@@ -92,6 +93,7 @@ infra-lab
 │ └── network-diagram.png
 │
 └── screenshots
+```
 
 ---
 
