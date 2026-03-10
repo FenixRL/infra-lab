@@ -44,6 +44,7 @@ Com os seguintes Codigos:
 
 
 ```ssh-keygen``` --> para gerar a chave
+
 ```ssh-copy-id rafa@192.168.56.101``` --> copiar para o web-server
 
 
