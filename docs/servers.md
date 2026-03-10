@@ -22,8 +22,11 @@ CPU: 2
 Função:
 Servidor de automação com Ansible.
 
+# 
 
 Tive que colocar o codigo:
-sudo loadkeys br
 
-para teclado funcionar ABNT
+```
+sudo loadkeys br
+```
+para teclado funcionar no modelo ABNT
