@@ -2,7 +2,7 @@ Foi realizado teste de acesso remoto utilizando SSH.
 
 Comando utilizado:
 
-ssh rafa@192.168.56.101
+```ssh rafa@192.168.56.101```
 
 O acesso ao servidor web-server foi realizado com sucesso.
 
