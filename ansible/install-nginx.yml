@@ -1,0 +1,33 @@
+---
+- hosts: web
+  become: yes
+
+  tasks:
+
+  - name: atualizar sistema
+    apt:
+      update_cache: yes
+
+  - name: instalar docker
+    apt:
+      name: docker.io
+      state: present
+
+  - name: iniciar docker
+    service:
+      name: docker
+      state: started
+      enabled: yes
+
+  - name: instalar biblioteca docker
+    apt:
+      name: python3-docker
+      state: present
+
+  - name: subir container nginx
+    docker_container:
+      name: nginx-server
+      image: nginx
+      state: started
+      ports:
+        - "80:80"

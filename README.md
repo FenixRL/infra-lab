@@ -76,23 +76,50 @@ Protocolo utilizado para acesso remoto seguro entre máquinas.
 
 ---
 
+# Automação com Ansible
+
+Para automatizar a configuração do ambiente foi utilizado Ansible.
+
+O infra-server atua como controlador da infraestrutura e executa playbooks que configuram automaticamente outros servidores da rede.
+
+Neste projeto foi criado um playbook responsável por:
+
+- instalar Docker no servidor web
+- iniciar o serviço Docker
+- realizar o deploy de um container Nginx
+
+Essa abordagem demonstra conceitos básicos de automação de infraestrutura e Infraestrutura como Código (IaC), muito utilizados em ambientes DevOps modernos.
+
+
+---
+
 
 # Estrutura do Projeto
 
 ```
 infra-lab
 │
-├── README.md
-│
-├── docs
-│ ├── setup.md
-│ ├── servers.md
-│ └── network.md
+├── ansible
+│   ├── inventory.ini
+│   └── install-nginx.yml
 │
 ├── diagrams
-│ └── network-diagram.png
+│   └── network-diagram.png
 │
-└── screenshots
+├── docs
+│   ├── network.md
+│   ├── servers.md
+│   └── setup.md
+│
+├── screenshots
+│   ├── access
+│   ├── ansible
+│   ├── docker 
+│   ├── network
+│   ├── system
+│   └── vm 
+│
+└── README.md
 ```
 
 ---

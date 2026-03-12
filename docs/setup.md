@@ -49,3 +49,22 @@ Com os seguintes Codigos:
 
 
 Isso permite que o Ansible se conecte automaticamente ao web-server.
+
+# 
+
+
+Automação da infraestrutura
+
+
+Para automatizar a configuração do servidor web foi utilizado Ansible.
+
+O servidor infra-server atua como controlador da infraestrutura, sendo responsável por executar playbooks que configuram automaticamente outros servidores.
+
+O playbook criado neste laboratório realiza as seguintes ações no web-server:
+
+- atualização do sistema
+- instalação do Docker
+- inicialização do serviço Docker
+- deploy de um container Nginx
+
+Essa abordagem permite configurar um servidor web completo utilizando apenas um comando, simulando práticas comuns de Infraestrutura como Código (IaC) utilizadas em ambientes DevOps.
