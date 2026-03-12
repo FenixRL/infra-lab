@@ -67,4 +67,3 @@ O playbook criado neste laboratório realiza as seguintes ações no web-server:
 - inicialização do serviço Docker
 - deploy de um container Nginx
 
-Essa abordagem permite configurar um servidor web completo utilizando apenas um comando, simulando práticas comuns de Infraestrutura como Código (IaC) utilizadas em ambientes DevOps.
